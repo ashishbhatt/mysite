@@ -1,3 +1,29 @@
+.padding-t-0{padding-top:0px;}
+.padding-l-0{padding-left:0px;}
+.padding-r-0{padding-right:0px;}
+.padding-b-0{padding-bottom:0px;}
+.padding-t-5{padding-top:5px;}
+.padding-l-5{padding-left:5px;}
+.padding-r-5{padding-right:5px;}
+.padding-b-5{padding-bottom:5px;}
+.padding-t-10{padding-top:10px;}
+.padding-l-10{padding-left:10px;}
+.padding-r-10{padding-right:10px;}
+.padding-b-10{padding-bottom:10px;}
+
+.margin-t-0{margin-top:0px;}
+.margin-l-0{margin-left:0px;}
+.margin-r-0{margin-right:0px;}
+.margin-b-0{margin-bottom:0px;}
+.margin-t-5{margin-top:5px;}
+.margin-l-5{margin-left:5px;}
+.margin-r-5{margin-right:5px;}
+.margin-b-5{margin-bottom:5px;}
+.margin-t-10{margin-top:10px;}
+.margin-l-10{margin-left:10px;}
+.margin-r-10{margin-right:10px;}
+.margin-b-10{margin-bottom:10px;}
+
 @font-face {
   font-family: 'icomoon';
   src: url("../fonts/icomoon/icomoon.eot?srf3rx");
@@ -12,7 +38,7 @@
 *
 * ======================================================= */
 body {
-  font-family: "Source Sans Pro", Arial, sans-serif;
+  font-family: 'Dosis', sans-serif/*"Source Sans Pro", Arial, sans-serif*/;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.8;
@@ -165,6 +191,10 @@ h1, h2, h3, h4, h5, h6 {
   padding-left: 0;
   color: #fff;
 }
+#ashish-header .navbar-brand:before{content:'\f015'; font-family: fontawesome;left: 1px;position: absolute;top: 5px; font-size:15px;transition: all 4s ease 0s;opacity:0}
+
+#ashish-header .navbar-brand:hover:before{opacity:1}
+
 #ashish-header.navbar-fixed-top {
   position: fixed !important;
   background: #fff;
@@ -1034,8 +1064,7 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
 }
 .owl-carousel-fullwidth .item .ashish-owl-text a {
-  color: white;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  color: white; border-bottom: 1px solid rgba(255, 255, 255, 0.5);font-size: 22px;font-style: italic;
 }
 .owl-carousel-fullwidth .item .ashish-owl-text a:hover {
   text-decoration: none;
@@ -1048,7 +1077,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0;
 }
 .owl-carousel-fullwidth .item .ashish-owl-text .ashish-lead {
-  font-weight: 700;
+  font-weight: 100;
   margin-bottom: 20px;
   margin-top: 0;
   text-transform: uppercase;
@@ -1066,9 +1095,8 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 .owl-carousel-fullwidth .item .ashish-owl-text .ashish-sub-lead {
-  font-size: 30px;
-  line-height: 30px;
-  line-height: 42px;
+  font-size: 24px;
+  line-height: 38px;
   font-weight: 100;
   margin-bottom: 30px;
   color: white;
